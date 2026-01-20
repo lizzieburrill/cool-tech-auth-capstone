@@ -11,7 +11,7 @@ const UserSchema = new mongoose.Schema({
   },
   // Users can belong to multiple Divisions/OUs
   divisions: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Division' }],
-  organizationUnits: [
+  organisationUnits: [
     { type: mongoose.Schema.Types.ObjectId, ref: 'OrganisationUnit' },
   ],
 });
