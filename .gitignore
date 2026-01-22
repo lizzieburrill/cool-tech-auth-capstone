@@ -1,0 +1,5 @@
+node_modules/
+mongo_data/
+.DS_Store
+.env
+client/node_modules/
